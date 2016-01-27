@@ -6,6 +6,21 @@ Provides a customer friendly view of tasks that a portal user could view. For mo
 
 `Inspired by Odoo website_project_issue`
 
+.. image:: https://cloud.githubusercontent.com/assets/744550/12625976/1c4e090e-c4eb-11e5-8197-6aabb34ec285.png
+    :alt: 'My Account'
+    :width: 988
+    :align: left
+
+.. image:: https://cloud.githubusercontent.com/assets/744550/12625979/200239bc-c4eb-11e5-9b9d-484a09acf48b.png
+    :alt: 'Task view'
+    :width: 988
+    :align: left
+
+.. image:: https://cloud.githubusercontent.com/assets/744550/12625981/22511c1a-c4eb-11e5-873f-703a0775e576.png
+    :alt: 'Customization (more on task)'
+    :width: 988
+    :align: left
+
 =============
 Main Features
 =============
