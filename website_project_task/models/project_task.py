@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from openerp import api, models
+from openerp import _, api, models
 
 
 class Task(models.Model):
