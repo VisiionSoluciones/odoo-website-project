@@ -17,13 +17,13 @@
                         <td><span t-esc="timesheet.date"/></td>
                         <td><span t-esc="timesheet.name"/></td>
                         <td><span t-esc="timesheet.user_id.name"/></td>
-                        <td><span t-field="timesheet.unit_amount" t-field-options='{"widget": "duration", "unit": "hour"}'/></td>
+                        <td><span t-field="timesheet.unit_amount" t-field-options='{"widget": "duration", "unit": "hour", "round": "minute"}'/></td>
                     </tr>
                     <tr>
                         <td/>
                         <td/>
                         <td><strong>Total:</strong></td>
-                        <td><span t-field="task.effective_hours" t-field-options='{"widget": "duration", "unit": "hour"}'/></td>
+                        <td><span t-field="task.effective_hours" t-field-options='{"widget": "duration", "unit": "hour", "round": "minute"}'/></td>
                     </tr>
                 </table>
             </t>
