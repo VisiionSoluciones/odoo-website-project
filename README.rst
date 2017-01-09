@@ -2,6 +2,7 @@
 Hibou - Website Project
 ***********************
 
+Odoo 9.0
 Provides a customer friendly view of tasks that a portal user could view. For more information and add-ons, visit `Hibou.io <https://hibou.io/>`_.
 
 `Inspired by Odoo website_project_issue`
@@ -35,7 +36,7 @@ Main Features
 Licence
 =======
 
-Please see `LICENSE <https://github.com/hibou-io/website-project/blob/master/LICENSE>`_.
+Please see `LICENSE <https://github.com/hibou-io/website-project/blob/9.0/LICENSE>`_.
 
-Copyright Hibou Corp. 2016.
+Copyright Hibou Corp. 2017.
 
