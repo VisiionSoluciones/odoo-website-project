@@ -2,7 +2,7 @@
 
 
 {
-    'name': 'Timesheet on Website Project Task',
+    'name': 'Website Project Tasks',
     'version': '1.0',
     'author': 'Hibou Corp. <hello@hibou.io>',
     'website': 'https://hibou.io/',
@@ -10,17 +10,18 @@
     'category': 'Tools',
     'complexity': 'easy',
     'description': """
-Add timesheet support on task in the frontend.
-==============================================
+This module adds options to Website Project:
+============================================
+
+* Tags on Tasks
+* Classes on Stages and Tags for CSS hooks.
     """,
     'depends': [
-        'website_project_task',
-        'project_timesheet',
+        'project',
+        'website_project',
     ],
     'data': [
-        'views/project_task_templates.xml',
-        'security/ir.model.access.csv',
-        'security/portal_security.xml',
+        'project_task_templates.xml',
     ],
     'installable': True,
     'auto_install': False,
