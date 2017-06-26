@@ -110,7 +110,8 @@
         <xpath expr="//div[contains(@class,'task-title')]" position="inside">
             <div class="task-tags pull-right" t-if="task.tag_ids">
                 <t t-foreach="task.tag_ids" t-as="tag">
-                    <span t-attf-class="label tag tag-color-{{ tag.color }}  tag-{{ tag.name }}"><t t-esc="tag.name"/></span>
+                	<span t-attf-class="many2many_tags"><t t-esc="tag.name"/></span>
+<!--                     <span t-attf-class="label tag tag-color-{{ tag.color }}  tag-{{ tag.name }}"><t t-esc="tag.name"/></span> -->
                 </t>
             </div>
         </xpath>
